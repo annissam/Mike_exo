@@ -13,13 +13,20 @@
 		else if (!ctype_digit($mike[2]))
 		echo "Votre parametre $mike[2] n'est pas correct";
 		else {
-				if($mike[1] >$mike[2])
-					echo"la puissance est $mike[1]";
-				else if ($ùike[2] > $mike[1])
-					echo"La puissance est $mike[2]";
-					"epuals";
-				/*Ternair*/
-				echo ($mike[1]> $mike[2])?"La puissance est $mike[1]" : ($mike[2] < $mike[1])? "la puissance est $mike[2]":"equals";
+				switch ($mike[1]+ $mike[3]) {
+					case "+":
+					echo($mike[1]- $mike[3]);
+					break;
+					case "-":
+						echo($mike[1]*$mike[3]);
+						break;
+					case "/":
+					echo($mike[3] == 0)?"expression invalide":($mike[1]/$mike[3]);
+						break;
+					default:
+						echo ($mike[1] %$mike[3]);
+						break;
+				}
 		}
 }
 
