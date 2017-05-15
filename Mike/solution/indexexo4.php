@@ -8,12 +8,15 @@
 			echo "Nombre de paramètres trop important";
 		else if($mike[0] !="Mike")
 			echo"Premiere valeur incorrect";
-		else if (!ctype_digit($mike[1]))
+		else if (!ctype_digit($mi	ke[1]))
 			echo "Votre parametre $mike[1] n'est pas correct";
 		else if (!ctype_digit($mike[2]))
 		echo "Votre parametre $mike[2] n'est pas correct";
 		else {
-				echo "Parametre 1: $mike[1]<br/>Parametre 2: $mike[2]";
+		if($mike[1]%2)
+			echo "Votre parametre est impaire";
+		else
+			echo "Votre parametre est paire";
 		}
 }
 
