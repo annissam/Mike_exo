@@ -13,19 +13,10 @@
 		else if (!ctype_digit($mike[2]))
 		echo "Votre parametre $mike[2] n'est pas correct";
 		else {
-				switch ($mike[1]+ $mike[3]) {
-					case "+":
-					echo($mike[1]- $mike[3]);
-					break;
-					case "-":
-						echo($mike[1]*$mike[3]);
-						break;
-					case "/":
-					echo($mike[3] == 0)?"expression invalide":($mike[1]/$mike[3]);
-						break;
-					default:
-						echo ($mike[1] %$mike[3]);
-						break;
+				unset($mike[0])
+				asort($mike);
+				foreach($mike as $key => $val)
+				 	echo "$val";
 				}
 		}
 }

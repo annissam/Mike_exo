@@ -1,0 +1,197 @@
+Update: 14.12.2016 – v1.1.5
+
+Changes:
+- fixed: sidebar generator security issue
+
+Files:
+style.css
+anps-framework/sidebar_generator.php
+
+
+Update: 13.10.2016 – v1.1.4
+
+Changes:
+ - fixed: child themes issues
+ - fixed: shipping styling issue
+ - fixed: boxed issue
+ - fixed: comments on pages issue
+ - updated: Owl Carousel
+ - added: child theme
+
+Files:
+ - anps-framework/admin_view.php
+ - anps-framework/dummy_view.php
+ - anps-framework/options_page_view.php
+ - anps-framework/theme_upgrade_view.php
+ - css/core.css
+ - templates/template-page.php
+ - functions.php
+ - style.css
+
+
+Update: 22.07.2016 – v1.1.3
+
+Changes:
+- added: compatibility with WooCommerce 2.6.3
+- fixed: site header search issue
+
+Files:
+- css/core.css
+- css/wordpress.css
+- style.css
+- functions.php
+- woocommerce/single-product/product-image.php
+- woocommerce/single-product/product-thumbnails.php
+
+
+Update: 20.07.2016 – v1.1.2
+
+Changes:
+- fixed: cart icon issue in header
+- added: product category description
+
+Files:
+- anps-framework/helpers.php
+- css/core.css
+- woocommerce/archive-product.php
+- style.css
+
+
+Update: 04.07.2016 – v1.1.1
+
+- added: new Google Maps API option
+- added: WooCommerce 2.6.x - updated: TGM
+
+
+Update: 15.04.2016 – v1.1.0
+
+Changes:
+- fixed: Javascript issue (caused by the WordPress 4.5 update)
+- fixed: issue with Visual Composer parallax
+- updated: FontAwesome
+
+Changed files:
+404.php
+functions.php
+style.css
+anps-framework/helpers.php
+anps-framework/js/wp_backend.js
+css/core.css
+js/functions.js
+
+
+Update: 29.03.2016 – v1.0.9
+
+- compatibility: for Visual Composer 4.11
+- updated: Revolution Slider
+
+
+Update: 10.02.2016 – v1.0.8
+
+Changes:
+- compatibility: WooCommerce 2.5.2
+- fixed: issue with select2.js
+- fixed: store heading background issue
+
+Files:
+- woocommerce/content-product_cat.php
+- woocommerce/myaccount/form-edit-account.php
+- anps-framework/helpers.php
+- anps-framework/js/wp_backend.js
+- anps-framework/css/wp-backend.css
+- functions.php
+- style.css
+
+
+Update: 22.01.2016 – v1.0.7
+
+Changes:
+- fixed: WooCommerce category view layout issue
+
+Files:
+- woocommerce/content-product_cat.php
+- woocommerce/archive-product.php
+- style.css
+- css/core.css
+
+
+Update: 20.01.2016 – v1.0.6
+
+Changes:
+- compatibility: theme is now compatible with WooCommerce 2.5
+
+Files changes:
+- woocommerce/cart/cart-shipping.php
+- woocommerce/content-product.php
+- functions.php
+- style.css
+- css/core.css
+- woocommerce/cart/mini-cart.php
+- woocommerce/cart/add-to-cart.php
+- woocommerce/global/quantity-input.php
+- woocommerce/myaccount/my-orders.php (removed)
+- woocommerce/single-product/review.php
+- woocommerce/content-widget-product.php
+- woocommerce/checkout/form-billing.php
+
+
+Update: 12.01.2016 – v1.0.5
+
+- fixed: media upload issue
+
+
+Update: 18.12.2015 – v1.0.4
+
+Changes:
+- fixed: comment issue with WordPress 4.4
+- fixed: issue with Isotope filtering
+- fixed: portfolio images issues
+
+Files:
+- style.css
+- functions.php
+- style/functions.js
+- anps-framework/shortcodes.php
+
+
+Update: 15.12.2015 – v1.0.3
+
+Changes:
+- compatibility: with WordPress 4.4
+- compatibility: with Visual Composer 4.9
+- fixed: sidebar isssue
+
+Files:
+- style.css
+- functions.php
+- js/functions.js
+- anps-framework/helpers.php
+- anps-framework/sidebar_generator.php
+- anps-framework/shortcodes.php
+- anps-framework/vc_shortcodes_map.php
+
+
+Update: 04.12.2015 – v1.0.2
+
+Changes:
+- fixed: Revolution Slider spacing issue
+- fixed: 404 container issue
+- fixed: styling issues
+- added: new top bar option
+
+Files:
+style.css
+css/core.css
+js/functions.js
+functions.php
+404.php
+
+
+Update: 27.11.2015 – v1.0.1
+
+- added: pricing element
+- added: 2 additional demos
+- fixed: styling issues
+
+
+Initial release: v1.0
